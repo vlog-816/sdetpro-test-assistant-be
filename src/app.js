@@ -29,7 +29,7 @@ app.get('/serverStatus', (req, res) => {
   res.json({
     status: 'OK',
     timestamp: new Date().toISOString,
-    service: 'BE-Powered AI Assistent Testing (made from VyVy)'
+    service: 'BE-Powered AI Assistent Testing'
   });
 });
 
