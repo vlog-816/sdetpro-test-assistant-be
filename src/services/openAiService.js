@@ -74,8 +74,8 @@ class openAIService {
             apiKey,
             baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
         });
-        this.model = model || 'gemini-3.1-flash-lite';
-        this.maxCompletionTokens = 500;
+        this.model = model || 'gemini-3.8-flash';
+        this.maxCompletionTokens = 8000;
         this.maxRetries = 3;
     }
 

@@ -1,6 +1,7 @@
 .env
 node_modules
 text.md
+./testFalsy.js
 
 ### react ###
 .DS_*
